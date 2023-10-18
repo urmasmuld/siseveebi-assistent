@@ -38,7 +38,7 @@ header('Content-Type: text/html');
 
 // Generate red borders to indicate that this is a test server
 echo <<<HTML
-<div style="position: fixed; top: 0; left: 0; right: 0; background: #f00; color: #fff; padding: 10px; text-align: center;">
+<div style="z-index: 100; top: 0; left: 0; right: 0; background: #f00; color: #fff; padding: 10px; text-align: center;">
 HTML;
 
 

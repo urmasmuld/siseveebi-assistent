@@ -2,6 +2,7 @@
 
 // Get the path from the URL
 $path =$_SERVER['REQUEST_URI'] ?? '';
+// $path = str_replace(['?', '&', ':'], "_", ($_SERVER['REQUEST_URI'] ?? ''));
 
 // Check if the path starts with /hois_back/
 if (strpos($path, '/hois_back/') === 0) {
